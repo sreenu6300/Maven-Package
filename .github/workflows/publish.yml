@@ -31,7 +31,7 @@ jobs:
               <server>
                 <id>github</id>
                 <username>sreenu6300</username>
-                <password>${{ secrets.Shared-Modules-Token }}</password>
+                <password>${{ secrets.Shared_Modules_Token }}</password>
               </server>
             </servers>
           </settings>" > $GITHUB_WORKSPACE/settings.xml
