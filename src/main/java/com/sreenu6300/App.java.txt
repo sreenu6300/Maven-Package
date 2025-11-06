@@ -1,4 +1,4 @@
-package com.shared;
+package com.sreenu6300;
 
 public class App {
     public static void main(String[] args) {
