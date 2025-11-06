@@ -13,7 +13,7 @@
     <repository>
       <id>github</id>
       <name>GitHub Packages</name>
-      <url>https://maven.pkg.github.com/sreenu6300/Maven-Package</url>
+      <url>https://github.com/sreenu6300/Maven-Package</url>
     </repository>
   </distributionManagement>
 
