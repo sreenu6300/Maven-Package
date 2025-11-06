@@ -31,7 +31,7 @@ jobs:
               <server>
                 <id>github</id>
                 <username>sreenu6300</username>
-                <password>${{ secrets.GH_PACKAGES_PAT }}</password>
+                <password>${{ secrets.Shared-Modules-Token }}</password>
               </server>
             </servers>
           </settings>" > $GITHUB_WORKSPACE/settings.xml
