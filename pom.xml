@@ -10,12 +10,12 @@
   <packaging>jar</packaging>
 
   <distributionManagement>
-    <repository>
-      <id>github</id>
-      <name>GitHub Packages</name>
-      <url>https://github.com/sreenu6300/Maven-Package</url>
-    </repository>
-  </distributionManagement>
+  <repository>
+    <id>github</id> <!-- must match <server><id> -->
+    <name>GitHub OWNER Apache Maven Packages</name>
+    <url>https://maven.pkg.github.com/sreenu6300/Maven-Package</url>
+  </repository>
+</distributionManagement>
 
   <build>
     <plugins>
