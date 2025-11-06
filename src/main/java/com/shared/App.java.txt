@@ -1,0 +1,11 @@
+package com.shared;
+
+public class App {
+    public static void main(String[] args) {
+        System.out.println("Hello, GitHub Maven Packages!");
+    }
+
+    public String getGreeting() {
+        return "Hello from App class!";
+    }
+}
